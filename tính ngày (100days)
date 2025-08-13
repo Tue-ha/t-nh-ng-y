@@ -1,0 +1,8 @@
+from datetime import datetime, timedelta
+
+# Ngày bắt đầu
+start_date = datetime(2025, 8, 13)
+
+# Tính toán ngày sau 100 ngày
+result_date = start_date + timedelta(days=100)
+print(result_date.strftime('%d/%m/%Y'))
